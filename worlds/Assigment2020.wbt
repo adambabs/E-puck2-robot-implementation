@@ -1,0 +1,116 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9978617458584712 -0.06527280766699207 0.003375904553105834 0.33027595663760534
+  position -0.028108503432636545 1.049250661910744 1.6862553112655245
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 1 0.8
+  floorTileSize 0.2 0.2
+  wallHeight 0.05
+}
+WoodenBox {
+  translation 0.15 0.05 0.05
+  rotation 0 1 0 3.14159
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.25 0.05 -0.05
+  rotation 0 1 0 3.14159
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.15 0.05 0.15
+  rotation 0 1 0 3.14159
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.35 0.05 0.05
+  rotation 0 1 0 3.14159
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.05 0.05 0.05
+  rotation 0 1 0 3.14159
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.05 0.05 -0.35
+  rotation 0 1 0 3.14159
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.05 0.05 0.15
+  rotation 0 1 0 3.14159
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.45 0.05 0.25
+  rotation 0 1 0 3.14159
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.35 0.05 0.35
+  rotation 0 1 0 3.14159
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.15 0.05 0.25
+  rotation 0 1 0 3.14159
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.25 0.05 0.05
+  rotation 0 1 0 3.14159
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.35 0.05 -0.05
+  rotation 0 1 0 3.14159
+  name "wooden box(11)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.25 0.05 -0.15
+  rotation 0 1 0 3.14159
+  name "wooden box(12)"
+  size 0.1 0.1 0.1
+}
+E-puck {
+  translation -0.05 -1.37668e-14 0.05
+  controller "MyController"
+  version "2"
+  turretSlot [
+    Display {
+      name "sensorDisplay"
+      width 200
+      height 200
+    }
+    Display {
+      name "odometryDisplay"
+      width 260
+      height 260
+    }
+    Display {
+      name "mapDisplay"
+      width 480
+      height 400
+    }
+  ]
+}
